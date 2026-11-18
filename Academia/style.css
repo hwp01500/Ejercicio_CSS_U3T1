@@ -23,3 +23,52 @@ p{
     justify-content: center;
     line-height: 1.5;
 }
+
+img {
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+}
+
+p2 {
+    font-weight: bold;
+}
+
+p3 {
+    text-decoration: underline;
+}
+
+p4 {
+    color: darkred;
+}
+
+div {
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    text-align: center;
+    border: 1px solid;
+    border-collapse: collapse;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+th {
+    background-color: darkblue;
+    color: whitesmoke;
+    border-bottom: 1px solid;
+}
+tr:hover  {
+    background-color: cyan;
+}
+
+tr:nth-child(even) {
+    background-color: bisque;
+}
+
+td {
+    border-bottom: 1px solid;
+}
+
