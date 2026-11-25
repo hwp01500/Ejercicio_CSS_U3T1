@@ -22,29 +22,58 @@ p{
     padding: 18px;
     justify-content: center;
     line-height: 1.5;
+    color: blue;
 }
 
 img {
     width: 60%;
     height: auto;
     margin: 0 auto;
+    display: block;
+    opacity: 85%;
+}
+
+body {
+    background-image: url(fondo.jpg);
+    background-repeat:no-repeat;
+    background-position: center top;
+    background-size: cover;
 }
 
 p2 {
     font-weight: bold;
+    color: darkcyan;
 }
 
 p3 {
     text-decoration: underline;
+    color: darkviolet;
 }
 
 p4 {
     color: darkred;
 }
 
+p5 {
+    color: darkblue;
+}
+
+p6 {
+    color: darkblue;
+}
+
+p7 {
+    color: darkblue;
+}
+
+p8 {
+    color: darkblue;
+}
+
 div {
     text-align: center;
 }
+
 
 table {
     width: 80%;
@@ -72,3 +101,37 @@ td {
     border-bottom: 1px solid;
 }
 
+input {
+    width: 60%;
+    padding: 10px;
+    border-color: gray;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    width: 60%;
+    height: 120px;
+    border-radius: 5px;
+    padding: 10px;
+    resize: vertical;
+}
+
+button{
+    background-color: green;
+    color: whitesmoke;
+    border: 0px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+}
+
+footer {
+    text-align: center;
+    font-family: Poppins;
+    padding: 40px;
+    color: darkblue;
+}
